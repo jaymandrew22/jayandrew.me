@@ -3,6 +3,11 @@ body {
   font-family: Verdana, Helvetica, sans-serif;
   color: #ffffff;
 }
-header {
- text-align: center;
+
+.page {
+ padding: 20px;
+ width: 100%;
+ height: 100vh;
+ margin: 0%;
+ border-bottom:20px solid black;
 }

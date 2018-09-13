@@ -24,7 +24,7 @@ section p:first-of-type {
 .primary-nav {
   position: fixed;
   text-align: center;
-  z-index: 10;
+height: 10vh;
   top: 0;
   left: 0;
   width: 100%;
@@ -37,10 +37,30 @@ section p:first-of-type {
 }
 
 .primary-nav li {
-  display: inline-block;
+  display: inline;
+  font-size: 4mm;
 }
 
 .primary-nav a {
-  padding: 20px;
+  padding: 0px 20px;
   color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.primary-nav a:hover{
+  background: rgba(150,0,0);
+    padding: 0px 20px;
+    height: 10vh;
+}
+
+.doggo {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+
+.page {
+  text-align: center;
 }

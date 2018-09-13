@@ -1,6 +1,6 @@
 body {
   background-color:#7a63c0;
-  font-family: Verdana, Helvetica, sans-serif;
+  font-family: 'Exo 2', sans-serif;
   color: #ffffff;
 }
 
@@ -24,7 +24,7 @@ section p:first-of-type {
 .primary-nav {
   position: fixed;
   text-align: center;
-height: 10vh;
+  height: 7vh;
   top: 0;
   left: 0;
   width: 100%;
@@ -38,7 +38,8 @@ height: 10vh;
 
 .primary-nav li {
   display: inline;
-  font-size: 4mm;
+  font-size: 8mm;
+  text-align: center;
 }
 
 .primary-nav a {
@@ -49,7 +50,7 @@ height: 10vh;
 }
 
 .primary-nav a:hover{
-  background: rgba(150,0,0);
+  background: rgba(0,0,100);
     padding: 0px 20px;
     height: 10vh;
 }
